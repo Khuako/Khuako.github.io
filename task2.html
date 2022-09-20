@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="task2.css">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khuako</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="task2.css">
 </head>
-<body style="margin:0;">
-    <div class="container">
-        <header class="header">
-        <div class="header_logo">
-            <div class="logo">
-                <img style="float:left; margin:10px; width:100px; height:100px;" src="https://www.pngkey.com/png/detail/873-8736065_stickers-heinsenberg-2-ombre-breaking-bad-png-logo.png" alt="Описание картинки для скрин-ридеров и поисковиков" />
-            </div>
-            <div class="logo_name">Задание 2</div>
-        </div>
-    </header>
-  <nav class="menu">
-    <ul class="menu_list">
-        <li><a href="#" class="menu_item">Ссылка 1</a></li>
-        <li><a href="#" class="menu_item">Ссылка 2</a></li>
-        <li><a href="#" class="menu_item">Ссылка 3</a></li>
-    </ul>
-</nav>
+<body>
+  <header>
+      <div class="shapka">
+          <div><img src="walter.jpg" alt="Логотип компании" id="main/logoimg" width="300" height="300"></div>
+          <div><p>Задание №2</p></div>
+      </div>
+  </header> 
+  <div class="navigation">
+  <nav>
+      <ul>
+          <li><a href="#start">Основное </a></li>
+          <li><a href="#table">Таблица</a></li>
+          <li><a href="#form">Форма</a></li>
+      </ul>
+  </nav>
+  </div>
+  <div class="web1">
+  <h2><a id="start">Гиперссылки</a></h2>
 <ol>
     <li>
         <a href="http://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта КубГУ</a>
@@ -47,19 +48,15 @@
     <li>
         <a href="https://example.com?a=username&b=password"> Ссылка с двумя параметрами в URl </a>
     </li>
-  <li>
-    <ul>
-        <li>
-        <a href="index.html" title="Главная"> Главная</a>
-        </li>
-        <li>
-        <a href="#top" title="Начало"> Начало страницы </a>
-        </li>
-        <li>
-        <a href="#form" title="Форма"> Форма </a>
-        </li>
-    </ul>
-    </li>
+    <li> Навигация
+      <nav>
+          <ul>
+              <li><a href="index2.html" title="Главная">Главная</a></li>
+              <li><a href="#top" title="Начало">Начало страницы</a></li>
+              <li><a href="#form" title="Форма">Форма</a></li>
+          </ul>
+      </nav>
+  </li>
     <li>
         <a>Ссылка без href </a>
     </li>
@@ -77,13 +74,13 @@
     </li>
     <li>
         Ссылка изображение:
-        <a href = "http://kubsu.ru/"> <img src = "https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" width = "200" height = "200" alt="Официальный сайт КубГУ"></a>
+        <a href = "http://kubsu.ru/"> <img src = "logo.png" width = "200" height = "200" alt="Официальный сайт КубГУ"></a>
     </li>
 
        <li>
       Ссылка из прямоугольных и круглых областей картинки
       <p>
-        <img src="https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" usemap="#image-map" alt="500">
+        <img src="logo.png" usemap="#image-map" alt="500">
         
         <map name="image-map">
           <area shape="rect" coords = "10,10,50,50" href = "https://kubsu.ru" alt="КубГУ" >
@@ -115,103 +112,83 @@
     </li>
 </ol>
 
-<hr>
-<table>
-    <tbody>
-    <tr>
-        <th>Столбец 1</th>
-        <th>Столбец 2</th>
-        <th>Столбец 3</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>10</td>>
-        <td>11</td>
-    </tr>
-    </tbody>
-</table>
-    <hr>
-
-    <h2 id="form"> Форма:</h2>
-
-    <form action="reply.html" method="POST">
+</div>
+<div class="table">
+    <h2 id="table">Таблица</h2>
+    <table>
+        <tr>
+            <th>Номер 1</th>
+            <th>Номер 2</th>
+            <th>Номер 3</th>
+        </tr>
+        <tr class="nech">
+            <td>Номер 4</td>
+            <td>Номер 5</td>
+            <td>Номер 6</td>
+        </tr>
+        <tr class="nech">
+            <td>Номер 7</td>
+            <td>Номер 8</td>
+            <td>Номер 9</td>
+        </tr>
+    </table>
+</div>
+<div class="form">
+<h2>Форма </h2>
+<form action="/" id="form">
     <label>
-    Имя:<br />
-    <input name="field-name" placeholder="ФИО" />
-    </label><br />
-
-  <label>
-    Email:<br />
-    <input name="field-email" type="email" placeholder="Введите вашу почту" />
-  </label><br />
-
-  <label>
-    Дата рождения:<br />
-    <input name="field-date" type="date" />
-  </label><br />
-  
-  Пол:<br />
-  <label><input type="radio" name="radio-group-gender" value="input-gender-male" />
-    Мужской
-  </label>
-  <label><input type="radio" name="radio-group-gender" value="input-gender-female" />
-    Женский
-  </label><br />
-
-  Кол-во конечностей:<br />
-  <label><input type="radio" name="radio-group-limbs" value="input-limbs-1" />
-   1
-  </label>
-  <label><input type="radio" name="radio-group-limbs" value="input-limbs-2" />
-   2
-  </label>
-  <label><input type="radio" name="radio-group-limbs" value="input-limbs-3" />
-    3
-  </label>
-  <label><input type="radio" name="radio-group-limbs" value="input-limbs-4" />
-    4
-  </label>
-  <label><input type="radio" name="radio-group-limbs" value="input-limbs-X" />
-    Другое
-  </label><br />
-
-  <label>
-    Сверхспособности:
-    <br />
-    <select name="field-spower" multiple="multiple">
-      <option value="spower-immortality">Бессметрие</option>
-      <option value="spower-no-walls">Прохождение сквозь стены</option>
-      <option value="spower-levitation">Левитация</option>
-    </select>
-  </label><br />
-
-  <label>
-    Биография:<br />
-    <textarea name="field-biography" placeholder="Минимум 100 слов"></textarea>
-  </label><br />      
-
-  <label><input type="checkbox" name="contract-checked" />
-    С контрактом ознакомлен (а)</label><br />
-
-  <input type="submit" value="Отправить" />
+        Имя:<br/>
+        <input name="field-name" placeholder="ФИО" />
+      </label><br/>
+      <label>
+        Email:<br/>
+        <input name="field-email" type="email" placeholder="Введите вашу почту" />
+      </label><br/>
+      <label>
+        Дата рождения:<br />
+        <input name="field-date" type="date" />
+      </label><br/>
+      Пол:<br />
+      <label><input type="radio" name="radio-group-gender" value="input-gender-male" />
+        Мужской
+      </label>
+      <label><input type="radio" name="radio-group-gender" value="input-gender-female" />
+        Женский
+      </label><br />
+      Кол-во конечностей:<br />
+      <label><input type="radio" name="radio-group-limbs" value="input-limbs-1" />
+       1
+      </label>
+      <label><input type="radio" name="radio-group-limbs" value="input-limbs-2" />
+       2
+      </label>
+      <label><input type="radio" name="radio-group-limbs" value="input-limbs-3" />
+        3
+      </label>
+      <label><input type="radio" name="radio-group-limbs" value="input-limbs-4" />
+        4
+      </label>
+      <label><input type="radio" name="radio-group-limbs" value="input-limbs-X" />
+        Другое
+      </label><br />
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-spower" multiple="multiple">
+          <option value="spower-immortality">Бессметрие</option>
+          <option value="spower-no-walls">Прохождение сквозь стены</option>
+          <option value="spower-levitation">Левитация</option>
+        </select>
+      </label><br />
+      <label>
+        Биография:<br />
+        <textarea name="field-biography" placeholder="Минимум 100 слов"></textarea>
+      </label><br />  
+      <label><input type="checkbox" name="contract-checked" />
+        С контрактом ознакомлен(а)</label><br />
+        <input type="submit" value="Отправить" />
 </form>
-<footer class="footer">
-    <p class="footer_content">(c) Хуако Роман 2022</p>
-</footer>
+</div>
 </body>
+<footer><p>(с) Хуако Роман 2022</p></footer>
 </html>
