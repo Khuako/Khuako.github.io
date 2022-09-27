@@ -125,7 +125,7 @@ th, .nech td{
     background-color: rgb(11, 211, 211);
 }
 @media (max-width:480px) {
-    .menu_list{
+    .navigation{
         flex-direction: column;
     }
     table{
