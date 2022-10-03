@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="task2.css">
 </head>
 <body>
+  <h1 id = "top"></h1>
   <header>
-      <div class="shapka">
-          <div><img src="walter.jpg" alt="Логотип компании" id="main/logoimg" width="300" height="300"></div>
-          <div><p>Задание №2</p></div>
+      <div class="header">
+        <div class = "container">
+        <img src="walter.jpg" alt="Логотип компании" height = "100px" weight="100px">
+        <b id="bheader"> Задание 2</b>
+        </div>
       </div>
   </header> 
-  <div class="navigation">
-  <nav>
-      <ul>
-          <li><a href="#start">Основное </a></li>
-          <li><a href="#table">Таблица</a></li>
-          <li><a href="#form">Форма</a></li>
-      </ul>
-  </nav>
+  <div class="container">
+    <div class = "nav">
+    <nav>
+        <a href="#start">Основное </a>
+        <a href="#table">Таблица</a>
+        <a href="#form">Форма</a>
+    </nav>
   </div>
-  <div class="web1">
-  <h2><a id="start">Гиперссылки</a></h2>
+  <hr>
+  <div class="links">
+  <h3><a id="links">Гиперссылки</a></h2>
 <ol>
     <li>
         <a href="http://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта КубГУ</a>
@@ -50,11 +53,9 @@
     </li>
     <li> Навигация
       <nav>
-          <ul>
-              <li><a href="task2.html" title="Главная">Главная</a></li>
-              <li><a href="#top" title="Начало">Начало страницы</a></li>
-              <li><a href="#form" title="Форма">Форма</a></li>
-          </ul>
+          <a href="task2.html" title="Главная">Главная</a>
+          <a href="#top" title="Начало">Начало страницы</a>
+          <a href="#form" title="Форма">Форма</a>
       </nav>
   </li>
     <li>
@@ -113,8 +114,9 @@
 </ol>
 
 </div>
+<hr>
 <div class="table">
-    <h2 id="table">Таблица</h2>
+    <h3 id="table">Таблица</h3>
     <table>
         <tr>
             <th>Номер 1</th>
@@ -134,7 +136,7 @@
     </table>
 </div>
 <div class="form">
-<h2>Форма </h2>
+<h3 id = "form">Форма </h3>
 <form action="/" id="form">
     <label>
         Имя:<br/>
@@ -189,6 +191,16 @@
         <input type="submit" value="Отправить" />
 </form>
 </div>
+</div>  
+<footer>
+  <div class="footer">
+    <div class="container">
+      <h2 id="end">
+        Хуако Роман | группа 25/1
+      </h2>
+    </div>
+  </div>
+</footer>
+
 </body>
-<footer><p>(с) Хуако Роман 2022</p></footer>
 </html>
