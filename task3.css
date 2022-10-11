@@ -15,9 +15,6 @@
         margin: 0.5em auto;
         padding-bottom: 0.3em;
     }
-    #bheader {
-        margin: 0 2em;
-    }
 
     .nav {
         flex-direction: column;
