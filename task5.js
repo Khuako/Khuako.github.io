@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
         let forbiddenSymbol=/^(?!(0))\d+$/;
         if(p.match(forbiddenSymbol)===null || q.match(forbiddenSymbol)===null)
         {
-          window.alert("В поле введены недопустимые символы или начинается с нуля");
+          alert("В поле введены недопустимые символы или начинается с нуля");
           r.innerHTML="Ошибка";
         }
         else
