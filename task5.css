@@ -37,3 +37,13 @@ form{
     border-color: #333333;
     flex-direction: row;
 }
+@media screen and (max-width: 560px) {
+    #price{
+        width: 100px;
+        font-size: 12px;
+    }
+    #quantity{
+        width: 100px;
+        font-size: 12px;
+    }
+}
