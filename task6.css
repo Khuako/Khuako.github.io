@@ -19,9 +19,6 @@ form {
     }
 
 @media screen and (max-device-width:780px) {
-    .b-f{
-        margin: 20vw;
-    }
     form{
         width: max-content;
         height: fit-content;
