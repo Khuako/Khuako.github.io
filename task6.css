@@ -1,0 +1,37 @@
+html,body {
+    background-color: #E4AF9D;
+    background: #cccccc;
+    font-family: monospace;
+    font-size:20px;
+}
+span, #result{
+    color:black;
+    
+}
+form {
+    width: 1000px;
+    padding:20px;
+    border: solid;
+    border-color: grey;
+    height: 200px;
+    background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+    }
+
+@media screen and (max-device-width:780px) {
+    .b-f{
+        margin: 20vw;
+    }
+    form{
+        width: max-content;
+        height: fit-content;
+    }
+    #optionPrice{
+        font-size: 12px;
+        width: 101px;
+    }
+    #deluxe{
+        width: 150px;
+        font-size: 12px;
+    }
+}

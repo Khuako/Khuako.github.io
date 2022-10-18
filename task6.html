@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="task6.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+  <div class  = "col container">
+    <div class = "col col-md-5 mx-auto b-main d-flex border">
+      <div class = "b-f">
+        <form>
+          <span>Введите количество товара:</span>
+          <div class = "field">
+            <input name = "field" id="field" type="text">
+          </div>
+          <select name = "priceRate">
+            <option value="1">Standart</option>
+            <option value="2">Premium</option>
+            <option value="3">Deluxe</option>
+          </select>
+          <div id="optionPrice">
+            <span>Выберите комплектацию</span>
+            <label><input type="radio" name="optionPrice" value="option1">Комплект A</label>
+            <label><input type="radio" name="optionPrice" value="option2">Комплект A+</label>
+            <label><input type="radio" name="optionPrice" value="option3">Комплект A++</label>
+          </div>
+          <div id="deluxe">
+            <div>Выберите доп. опции (Deluxe включает в себя комплект A++)</div>
+            <label><input type="checkbox" name="deluxe" value="check1">Гарантия 12 мес.</label>
+            <label><input type="checkbox" name="deluxe" value="check2">Установка операционной системы</label>
+          </div>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
