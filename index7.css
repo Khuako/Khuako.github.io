@@ -1,19 +1,22 @@
 body{
-    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614385511_3-p-fon-dlya-fotoshopa-svetlii-muzhskoi-3.jpg);
+    background-image: url(https://million-wallpapers.ru/wallpapers/5/15/470563057827743/akcent-v-centre-svetom-na-temno-sinem-yone.jpg);
     }
     .photo{
         width:180px;
         height:180px;
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         padding: 10%;
         border-radius: 10%;
+        margin:0 auto;
      }
     .slide {
       text-align: center;
     }
     h2 {
       padding: 10%;
-      color:black;
+      color:white;
       font-family: courier;
     }
     .slider{
@@ -21,11 +24,11 @@ body{
       padding: 10px;
       margin-top: 15%;
       width: 95%;
-      height: 45vh;
+      height: 50vh;
     }
     .slick-dots li button::before{
         font-size:15px;
-        background-color:#000;
+        background-color:#fff;
     }
     
     
