@@ -1,95 +1,52 @@
-
-function popup(par) {
-    let mainForma = document.getElementById("mainForm");
-    let bg = document.getElementById("popup");
-    if (par === true) {
-      mainForma.style.display = ("block");
-      bg.style.opacity = ("2");
-      bg.style.pointerEvents = ("all");
-      history.pushState(true, null, "#form");
-    }
-  
-    else {
-      mainForma.style.display = ("none");
-      bg.style.opacity = ("0");
-      bg.style.pointerEvents = ("none");
-      history.pushState(false, null, "#");
-    }
+html, body {
+  background-image: url(wallpaper.jpg);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
   }
   
-  
-  let username = document.getElementById("Name");
-  let email = document.getElementById("email");
-  let mssg = document.getElementById("Textarea");
-  let cbox = document.getElementById("check");
-  
-  
-  function save() {
-    localStorage.setItem("Name", username.value);
-    localStorage.setItem("Email", email.value);
-    localStorage.setItem("Message", mssg.value);
-    localStorage.setItem("Checkbox", cbox.checked);
+  #popup {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+  opacity: 0;
   }
-  document.addEventListener("DOMContentLoaded", function (event) {
-    if (location.hash === "#form") {
-      popup(true);
-    }
-    window.addEventListener("popstate", (e) => {
-      popup(e);
-    });
-    let b = document.getElementById("btn1");
-    b.addEventListener("click", () => {
-      popup(true);
-    });
-    let c = document.getElementById("closeForm");
-    c.addEventListener("click", () => {
-      popup(false);
-    });
-    let popupBg = document.getElementById("popup");
-    document.addEventListener("click", (e) => {
-      if (e.target === popupBg) {
-        popup(false);
-      }
-    });
+  #mainForm{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background-color: cyan;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 1vw;
+  }
+  #btn{
+    width: 100px;
+    color: blue;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .field
+{
+  width:fit-content-content;
+}
   
-    username.value = localStorage.getItem("Name");
-    email.value = localStorage.getItem("Email");
-    mssg.value = localStorage.getItem("Message");
-    if (localStorage.getItem("Checkbox") === "false"){
-      cbox.checked = false;}
-    else{
-      cbox.checked = true;}
+  #frm{
+    padding: 2vw;
+  }
   
-    username.oninput = save;
-    email.oninput = save;
-    mssg.oninput = save;
-    cbox.onclick = save;
-  });
-  
-  $(function () {
-    $(".ajaxForm").submit(function (e) {
-      e.preventDefault();
-      var href = $(this).attr("action");
-      $.ajax({
-        type: "POST",
-        dataType: "json",
-        url: href,
-        data: $(this).serialize(),
-        success: function (response) {
-          if (response.status === "success") {
-            alert("Succesfully!");
-            localStorage.removeItem("Name");
-            localStorage.removeItem("Email");
-            localStorage.removeItem("Message");
-            localStorage.removeItem("Checkbox");
-            username.value = localStorage.getItem("Name");
-            email.value = localStorage.getItem("Email");
-            mssg.value = localStorage.getItem("Message");
-            cbox.checked = false;
-          } else {
-            alert("Error " + response.message);
-          }
-        }
-      });
-    });
-  });
+  #closeForm{
+  float: right;
+  }
+@media (max-width: 960px)
+{
+  #mainForm{
+    width:350px;
+  }
+}
