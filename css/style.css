@@ -672,7 +672,7 @@ li {
     font-size: 22px;
     font-weight: 700;
 }
-.plans-card-price h3 {
+.plans-price-card h3 {
     font-weight: bold;
     font-size: 72px;
     line-height: 72px;
@@ -784,11 +784,11 @@ li {
     transition: 0.4s;
 }
 
-.plans-card-starting .plans-card-line {
+.plans-card-starter .plans-card-line {
     width: 270px;
 }
 
-.plans-card-starting .plans-wrapper {
+.plans-card-starter .plans-wrapper {
     width: 300px;
     margin: 0px auto;
 }
