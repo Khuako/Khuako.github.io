@@ -672,7 +672,7 @@ li {
     font-size: 22px;
     font-weight: 700;
 }
-.plans-price-card h3 {
+.plans-card-price h3 {
     font-weight: bold;
     font-size: 72px;
     line-height: 72px;
@@ -682,7 +682,7 @@ li {
     color: #050C33;
 }
 
-.plans-price-card span {
+.plans-card-price span {
     position: relative;
     font-weight: 500;
     font-size: 28px;
@@ -691,7 +691,7 @@ li {
     color: #050C33;
 }
 
-.plans-price-card p {
+.plans-card-price p {
     position: relative;
     right: 15px;
     font-size: 16px;
