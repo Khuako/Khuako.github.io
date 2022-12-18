@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     $('.plans-card-starter').mouseover(function(){
         $(this).addClass('scaled');
-        $('.plans-card-business').addClass('business-scale');
+        $('.plans-card-business').addClass('.business-scale');
     });
     $('.plans-card-starter').mouseout(function(){
         $(this).removeClass('scaled');
@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
     $('.plans-card-vip').mouseout(function(){
         $(this).removeClass('scaled');
-        $('plans-card-business').removeClass('business-scale');
+        $('.plans-card-business').removeClass('business-scale');
     });
     
     // СЛАЙДЕР ДЛЯ ОТЗЫВОВ
