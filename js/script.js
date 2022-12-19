@@ -62,4 +62,27 @@ $(document).ready(function(){
             }
         }],
     });
+    
+    // ПАРТНЕРЫ СЛАЙД ВТОРОЙ
+    $('.partners-slider-second').slick({
+        dots: false,
+        slidesToScroll: 2,
+        slidesToShow: 6,
+        arrows: false,
+        easing: 'ease',
+        pauseOnFocus: true,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        speed: 1800,
+        responsive: [{
+            breakpoint: 480,
+            settings: {
+                slidesToScroll: 1,
+                slidesToShow: 3,
+                variableWidth: true,
+                centerMode: true,
+                focusOnSelect: true
+            }
+        }],
+    });
 });
