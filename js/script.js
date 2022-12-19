@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     $('.plans-card-starter').mouseover(function(){
         $(this).addClass('scaled');
-        $('.plans-card-business').addClass('.business-scale');
+        $('.plans-card-business').addClass('business-scale');
     });
     $('.plans-card-starter').mouseout(function(){
         $(this).removeClass('scaled');
@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
     
     // ПАРТНЕРЫ СЛАЙД ПЕРВЫЙ
-    $('.partners-slider-1').slick({
+    $('.partners-slider-first').slick({
         dots:false,
         slidesToScroll: 1,
         slidesToShow: 6,
