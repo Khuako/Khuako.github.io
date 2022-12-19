@@ -40,4 +40,27 @@ $(document).ready(function(){
         nextArrow: '<span class="slick-next">></span>'
 
     });
+    
+    // ПАРТНЕРЫ СЛАЙД ПЕРВЫЙ
+    $('.partners-slider-1').slick({
+        dots:false,
+        slidesToScroll: 1,
+        slidesToShow: 6,
+        arrows:false,
+        easing: 'ease',
+        pauseOnFocus:true,
+        autoplay:true,
+        autoplaySpeed:2400,
+        speed:1400,
+        responsive:[{
+            breakpoint:480,
+            settings:{
+                slidesToScroll:1,
+                slidesToShow:2,
+                variableWidth:true,
+                slidesToShow:2
+            }
+        }],
+    });
+});
 });
