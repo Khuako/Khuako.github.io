@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
     $('.plans-card-starter').mouseout(function(){
         $(this).removeClass('scaled');
-        $('plans-card-business').removeClass('business-scale');
+        $('.plans-card-business').removeClass('business-scale');
     });
     $('.plans-card-vip').mouseover(function(){
         $(this).addClass('scaled');
