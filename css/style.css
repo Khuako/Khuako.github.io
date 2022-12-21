@@ -1301,7 +1301,7 @@ li {
     margin-left: 16px;
 }
 
-.form {
+.form-form {
     margin: 125px 305px 110px 130px;
     width: 480px;
 }
@@ -1388,13 +1388,13 @@ li {
     margin: 20px 0px 20px 0px;
 }
 
-.form .fm1 {
+.form .fm-1 {
     z-index: 1;
     position: absolute;
     left: 45%;
 }
 
-.form .fm2 {
+.form .fm-2 {
     z-index: 1;
     position: absolute;
     top: auto;
@@ -1402,7 +1402,7 @@ li {
     bottom: 0;
 }
 
-.form-elem {
+.form-form-elem {
     color: white;
     font-size: 14px;
     width: 480px;
@@ -1416,11 +1416,11 @@ li {
     transition: 0.4s;
 }
 
-.form-elem::placeholder {
+.form-form-elem::placeholder {
     color: white;
 }
 
-.form-elem:focus {
+.form-form-elem:focus {
     outline: #f14d34;
     border-color: #f14d34;
     box-shadow:
@@ -1436,7 +1436,7 @@ li {
     padding-bottom: 65px;
 }
 
-.form-btn {
+.form-form-btn {
     text-transform: uppercase;
     color: white;
     width: 480px;
@@ -1448,7 +1448,7 @@ li {
     font-size: 12px;
 }
 
-.form-btn:hover {
+.form-form-btn:hover {
     background: none;
 }
 
@@ -1477,6 +1477,7 @@ footer .footer-text {
 .footer-text p {
     margin-bottom: 6px;
 }
+
 
 /* ОПТИМИЗАЦИЯ ДЛЯ СМАРТФОНОВ */
 
