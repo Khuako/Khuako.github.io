@@ -659,7 +659,7 @@ li {
 
 /* карточки */
 
-.plans-cards {
+.plans-car {
     display: flex;
     justify-content: center;
     position: relative;
@@ -1388,13 +1388,13 @@ li {
     margin: 20px 0px 20px 0px;
 }
 
-.form .ds-1 {
+.form .fm1 {
     z-index: 1;
     position: absolute;
     left: 45%;
 }
 
-.form .ds-2 {
+.form .fm2 {
     z-index: 1;
     position: absolute;
     top: auto;
