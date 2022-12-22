@@ -659,7 +659,7 @@ li {
 
 /* карточки */
 
-.plans-card {
+.plans-cards {
     display: flex;
     justify-content: center;
     position: relative;
