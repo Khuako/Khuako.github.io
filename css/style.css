@@ -1987,5 +1987,115 @@ footer .footer-text {
     padding: 0;
     color: #fff;
   }
+    
+  /* КОМАНДА */
+    
+ .team {
+    padding: 0px 15px;
+  }
 
+  .team-title {
+    margin-bottom: 60px;
+    font-size: 25px;
+  }
+
+  .team-list .team-list-item {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 155px;
+  }
+
+  .team-photo {
+    margin-bottom: 20px;
+  }
+
+  .team-photo img {
+    width: 155px;
+    height: 155px;
+  }
+
+  .team-employee .team-employee-name {
+    font-size: 14px;
+  }
+
+  .team-employee .team-employee-position {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.7;
+  }
+    
+      /* ОТЗЫВЫ */
+
+  .reviews {
+    padding: 10px;
+    background: url("../img/reviews/right-quote-sign.svg") no-repeat left top/35%;
+  }
+
+  .reviews-title {
+    margin-bottom: 70px;
+    font-size: 25px;
+  }
+
+  .wrapper-reviews {
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  .wrapper-reviews::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    border-radius: 5px;
+
+  }
+
+  .wrapper-reviews::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    z-index: -2;
+
+    background: #FFFFFF;
+    opacity: 0.34;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    border-radius: 5px;
+  }
+
+  .wrapper-reviews .reviews-slider {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    width: 100%;
+    padding: 0px 10px 30px;
+  }
+
+  .reviews-slider .reviews-person {
+    width: 100%;
+  }
+
+  .reviews-slider .reviews-comment {
+    width: 100%;
+  }
+
+  .slick-arrows {
+    margin-top: 20px;
+  }
 }
