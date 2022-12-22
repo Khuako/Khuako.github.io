@@ -659,7 +659,7 @@ li {
 
 /* карточки */
 
-.plans-car {
+.plans-card {
     display: flex;
     justify-content: center;
     position: relative;
@@ -815,7 +815,7 @@ li {
     color: white;
 }
 
-.business_btn {
+.business-btn {
     margin-top: 75px;
 }
 
@@ -1823,7 +1823,7 @@ footer .footer-text {
     
     /*ТАРИФЫ*/
   
-    .plans {
+  .plans {
     height: 1000px;
     margin: 0;
   }
@@ -1923,7 +1923,7 @@ footer .footer-text {
 
     /* ПОСЛЕДНИЕ КЕЙСЫ */
   
-    .cases {
+  .cases {
     margin-top: 1200px;
   }
 
@@ -1990,7 +1990,7 @@ footer .footer-text {
     
   /* КОМАНДА */
     
- .team {
+  .team {
     padding: 0px 15px;
   }
 
