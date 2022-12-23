@@ -2098,4 +2098,109 @@ footer .footer-text {
   .slick-arrows {
     margin-top: 20px;
   }
+        /* ПАРТНЕРЫ */
+
+  .partners {
+    padding: 10px 0px;
+  }
+
+  .partners .slider-item {
+    height: 100px;
+    width: 200px;
+  }
+
+  .partners .partners-title {
+    padding: 10px 50px;
+    font-size: 25px;
+  }
+
+  .partners .partners-txt {
+    padding: 15px 50px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .partners img {
+    width: 195px;
+  }
+  /* ФОРМА */
+  .form {
+    height: 1100px;
+  }
+
+  .form-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-main .form-info {
+    width: 100%;
+    margin: 60px;
+  }
+
+  .form-mail
+  .form-number {
+    margin-left: 25px;
+  }
+
+  .form-info-txt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-info-txt span {
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 35px;
+  }
+
+  .form-info-txt p {
+    margin-bottom: 35px;
+    text-align: start;
+    margin: 10px 0 10px 25px;
+  }
+
+  .form-main .form-form {
+    margin-top: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .form-form-elem {
+    width: 100%;
+  }
+
+  .form-form-btn {
+    width: 100%;
+  }
+
+  .form-form-btn:hover {
+    background-color: #f14d34;
+  }
+
+  .form .fm-1 {
+    left: 30%;
+  }
+
+  .form .fm-1 img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .form .fm-2 img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .form footer {
+    height: 150px;
+    padding: 0px 20px;
+  }
+
+  .form footer .footer-text {
+    margin: 0;
+    margin-bottom: 10px;
+  }
 }
