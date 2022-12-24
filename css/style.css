@@ -1739,24 +1739,24 @@ footer .footer-text {
     width: 100%;
   }
 
-  .functions-item {
+  .f-icon {
     width: 100%;
     margin-right: 0px;
   }
 
-  .functions-item p {
+  .f-icon p {
     width: 135px;
     font-size: 13px;
     margin-top: 25px;
     margin-left: 20px;
   }
 
-  .functions-item img {
+  .f-icon img {
     margin: 0px auto;
     display: block;
   }
 
-  .functions-item::before {
+  .f-icon::before {
     left: 0;
     top: 8.76%;
     bottom: 54.64%;
